@@ -1,0 +1,577 @@
+{
+  "name": "Software Engineer",
+  "children": [
+    {
+      "name": "Fundamentals",
+      "details": "Fundamentals provide the building blocks of computer science. They form the essential knowledge base needed to reason about programs, optimize performance, and build scalable solutions. These include data structures and algorithms, computer architecture, and discrete mathematics.",
+      "children": [
+        {
+          "name": "Data Structures and Algorithms",
+          "details": "Arrays are fixed-size collections of elements stored in contiguous memory locations. They provide fast random access but make insertion and deletion costly. Linked lists, in contrast, store data in nodes linked by pointers, allowing efficient insertions and deletions though access is slower. Hash tables enable quick key-based lookups by storing key-value pairs, but they must handle collisions effectively. Sorting algorithms such as Merge Sort, Quick Sort, and Heap Sort arrange data in order, each with unique performance trade-offs. Stacks (LIFO) and queues (FIFO) structure data for order-sensitive operations, while trees such as binary trees, BSTs, and heaps organize hierarchical data for efficient searching and processing.",
+          "children": [
+            {
+              "name": "Arrays",
+              "details": "Arrays are simple, fixed-size data containers that allow constant-time access. They are efficient for lookups but less ideal for frequent insertions and deletions."
+            },
+            {
+              "name": "Linked Lists",
+              "details": "Linked Lists use nodes connected by pointers, offering flexibility in dynamic memory allocation. They are slower for direct access but excellent for insertions and deletions."
+            },
+            {
+              "name": "Hash Tables",
+              "details": "Hash Tables store data in key-value pairs, enabling very fast lookups. They must handle collisions using strategies such as chaining or open addressing."
+            },
+            {
+              "name": "Sorting Algorithms (Merge Sort, Quick Sort, Heap Sort)",
+              "details": "Sorting Algorithms (Merge Sort, Quick Sort, Heap Sort) define different ways to order data efficiently. Each has unique time and space trade-offs useful in different scenarios."
+            },
+            {
+              "name": "Stacks and Queues",
+              "details": "Stacks and Queues are abstract structures defining order-based operations: LIFO (stack) and FIFO (queue). They are used in parsing, scheduling, and algorithm design."
+            },
+            {
+              "name": "Trees (Binary Trees, BST, Heaps)",
+              "details": "Trees (Binary Trees, BST, Heaps) are hierarchical structures that organize data efficiently for searching, sorting, and priority-based tasks. Variants like binary search trees and heaps are central in many algorithms."
+            }
+          ]
+        },
+        {
+          "name": "Computer Architecture",
+          "details": "CPU architecture defines how processors execute instructions, including the use of registers, instruction sets, and pipelines. Processes represent independent running programs, while threads are lightweight execution units sharing resources within processes, enabling multitasking. Memory hierarchy arranges storage into registers, caches, RAM, and disks to balance speed and cost. Concurrency refers to managing multiple tasks at once, while parallelism executes them simultaneously to boost performance. Operating system concepts such as scheduling and process management regulate hardware resources, and virtualization allows multiple operating systems to run on shared hardware resources.",
+          "children": [
+            {
+              "name": "CPU Architecture",
+              "details": "CPU Architecture includes pipelines, registers, and instruction sets that execute commands. Understanding it helps optimize performance."
+            },
+            {
+              "name": "Processes and Threads",
+              "details": "Processes and Threads represent units of execution, with threads being lightweight and sharing memory. They enable multitasking and responsiveness."
+            },
+            {
+              "name": "Memory Hierarchy",
+              "details": "Memory Hierarchy organizes storage into levels like cache, RAM, and disk. It balances speed, cost, and availability."
+            },
+            {
+              "name": "Concurrency and Parallelism",
+              "details": "Concurrency and Parallelism improve performance by managing and executing tasks simultaneously. They are critical for scaling applications."
+            },
+            {
+              "name": "Operating Systems Concepts",
+              "details": "Operating Systems Concepts such as scheduling, memory management, and resource allocation allow software to run smoothly."
+            },
+            {
+              "name": "Virtualization",
+              "details": "Virtualization enables multiple systems to run on shared hardware, making cloud computing and enterprise solutions possible."
+            }
+          ]
+        },
+        {
+          "name": "Discrete Mathematics",
+          "details": "Logic and proofs form the basis of mathematical reasoning used to validate algorithms and systems. Number theory studies properties of integers and primes, which are vital in cryptography and hashing. Set theory describes collections of elements, providing foundations for database and programming logic. Linear algebra focuses on matrices and vectors, essential in graphics, simulations, and machine learning. Combinatorics counts and arranges possibilities, while probability and statistics analyze uncertainty in data. Finally, graph theory studies networks and relationships, which underpin algorithms for routing, searching, and optimization.",
+          "children": [
+            {
+              "name": "Logic and Proofs",
+              "details": "Logic and Proofs ensure that algorithms and systems are correct. They form the foundation for reasoning in programming."
+            },
+            {
+              "name": "Number Theory",
+              "details": "Number Theory studies properties of integers, which are central in cryptography and hashing."
+            },
+            {
+              "name": "Set Theory",
+              "details": "Set Theory models collections of objects and supports database queries and logic."
+            },
+            {
+              "name": "Linear Algebra",
+              "details": "Linear Algebra deals with vectors and matrices, which are crucial in AI, graphics, and simulations."
+            },
+            {
+              "name": "Combinatorics",
+              "details": "Combinatorics focuses on counting and arranging, which aids in analyzing algorithm efficiency."
+            },
+            {
+              "name": "Probability and Statistics",
+              "details": "Probability and Statistics handle uncertainty and are essential for data science and AI."
+            },
+            {
+              "name": "Graph Theory",
+              "details": "Graph Theory studies nodes and edges, enabling solutions for routing, networking, and social graph problems."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "children": [
+        {
+          "name": "Database Systems",
+          "details": "Relational databases use SQL to store and query structured data in tables, supporting joins and constraints. Transactions follow ACID properties (Atomicity, Consistency, Isolation, Durability) to ensure reliable operations. NoSQL databases, such as MongoDB or Cassandra, handle unstructured or semi-structured data, providing scalability and flexibility for modern applications.",
+          "children": [
+            {
+              "name": "Relational Databases (SQL)",
+              "details": "Relational Databases (SQL) store structured data in tables and support powerful queries. They enforce consistency through constraints and relationships."
+            },
+            {
+              "name": "Transactions and ACID Properties",
+              "details": "Transactions and ACID Properties guarantee reliability in operations, ensuring data is consistent and safe."
+            },
+            {
+              "name": "NoSQL Databases",
+              "details": "NoSQL Databases handle unstructured or semi-structured data, offering flexibility and scalability for big data applications."
+            }
+          ]
+        },
+        {
+          "name": "Core Concepts",
+          "details": "Syntax and semantics describe programming language rules and meanings, ensuring programs are both correct and understandable. Object-oriented programming organizes code into classes and objects, promoting reuse and abstraction. Error handling ensures robust software by managing exceptions gracefully. Memory management oversees resource allocation and garbage collection, preventing leaks and crashes.",
+          "children": [
+            {
+              "name": "Syntax and Semantics",
+              "details": "Syntax and Semantics define the grammar and meaning of a language. Understanding both prevents errors and improves clarity."
+            },
+            {
+              "name": "Object-Oriented Programming",
+              "details": "Object-Oriented Programming organizes code into objects and classes. It promotes abstraction, reusability, and scalability."
+            },
+            {
+              "name": "Error Handling",
+              "details": "Error Handling ensures applications remain stable by catching and managing exceptions gracefully."
+            },
+            {
+              "name": "Memory Management",
+              "details": "Memory Management handles allocation and deallocation of resources. Efficient memory use prevents crashes and improves performance."
+            }
+          ]
+        },
+        {
+          "name": "JavaScript",
+          "details": "Core JavaScript provides the fundamental logic for building interactive web pages. DOM manipulation enables dynamic updates to webpage elements without reloading. Frameworks like React, Angular, and Vue streamline development with structured tools and components. Node.js extends JavaScript to the server side, supporting scalable applications, while testing libraries such as Jest and Mocha ensure reliability.",
+          "children": [
+            {
+              "name": "Core JavaScript",
+              "details": "Core JavaScript provides the basics like variables, functions, and control structures. It is the foundation for modern frameworks."
+            },
+            {
+              "name": "DOM Manipulation",
+              "details": "DOM Manipulation allows interactive updates to web pages without reloading. It powers dynamic content."
+            },
+            {
+              "name": "Frameworks (React, Angular, Vue)",
+              "details": "Frameworks (React, Angular, Vue) simplify building scalable and structured web applications. They provide reusable components and state management."
+            },
+            {
+              "name": "Node.js",
+              "details": "Node.js enables server-side JavaScript, making full-stack development possible with one language."
+            },
+            {
+              "name": "Testing (Jest, Mocha)",
+              "details": "Testing (Jest, Mocha) ensures applications work correctly and remain reliable as they grow."
+            }
+          ]
+        },
+        {
+          "name": "Python",
+          "details": "Python’s object-oriented programming makes it versatile for building scalable applications. Web frameworks such as Django and Flask simplify backend development. Libraries like NumPy and Pandas support data science workflows, enabling analysis and manipulation of datasets. Machine learning libraries like Scikit-learn and TensorFlow allow developers to build and train intelligent models.",
+          "children": [
+            {
+              "name": "Object-Oriented Programming",
+              "details": "Object-Oriented Programming in Python supports modular and scalable code. It simplifies large project design."
+            },
+            {
+              "name": "Web Frameworks (Django, Flask)",
+              "details": "Web Frameworks (Django, Flask) streamline backend development with built-in tools and security features."
+            },
+            {
+              "name": "Data Science Libraries (NumPy, Pandas)",
+              "details": "Data Science Libraries (NumPy, Pandas) make analysis, manipulation, and visualization of data efficient."
+            },
+            {
+              "name": "Machine Learning Libraries (Scikit-learn, TensorFlow)",
+              "details": "Machine Learning Libraries (Scikit-learn, TensorFlow) provide ready-to-use algorithms for building predictive models."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Front-End Development",
+      "details": "Front-end development focuses on creating user interfaces that are functional, accessible, and visually appealing. It ensures users can interact with software intuitively.",
+      "children": [
+        {
+          "name": "Java",
+          "details": "Core Java covers essential syntax and libraries for application development. Multithreading supports concurrent tasks, enabling efficient resource usage. Object-oriented programming principles like inheritance and encapsulation guide structured design. The Spring Framework adds powerful tools for building enterprise-level applications.",
+          "children": [
+            {
+              "name": "Core Java",
+              "details": "Core Java covers essential syntax, APIs, and tools. It forms the basis for all advanced Java work."
+            },
+            {
+              "name": "Multithreading",
+              "details": "Multithreading enables multiple operations to run simultaneously. It is crucial for performance in complex applications."
+            },
+            {
+              "name": "Object-Oriented Programming",
+              "details": "Object-Oriented Programming applies design principles to manage complexity and promote reusability."
+            },
+            {
+              "name": "Spring Framework",
+              "details": "Spring Framework provides powerful features for building enterprise-scale applications."
+            }
+          ]
+        },
+        {
+          "name": "HTML",
+          "details": "Semantic HTML uses meaningful tags to improve accessibility and search engines’ understanding of content. Forms and validation ensure proper user input collection and error handling. SEO best practices in HTML optimize content visibility and ranking in search results.",
+          "children": [
+            {
+              "name": "Semantic HTML",
+              "details": "Semantic HTML uses meaningful tags that improve accessibility and SEO."
+            },
+            {
+              "name": "Forms and Validation",
+              "details": "Forms and Validation enable user input while enforcing correctness and security."
+            },
+            {
+              "name": "SEO Best Practices",
+              "details": "SEO Best Practices in HTML ensure content ranks well on search engines, increasing visibility."
+            }
+          ]
+        },
+        {
+          "name": "CSS",
+          "details": "CSS fundamentals define the appearance of web pages through properties like color, font, and spacing. Layout techniques such as Flexbox and Grid create responsive, structured designs. Frameworks like Bootstrap and Tailwind CSS offer prebuilt styles and utilities for faster development.",
+          "children": [
+            {
+              "name": "CSS Fundamentals",
+              "details": "CSS Fundamentals include properties for styling elements like colors, fonts, and spacing."
+            },
+            {
+              "name": "Layouts (Flexbox, Grid)",
+              "details": "Layouts (Flexbox, Grid) provide modern techniques for arranging elements responsively."
+            },
+            {
+              "name": "CSS Frameworks (Bootstrap, Tailwind CSS)",
+              "details": "CSS Frameworks (Bootstrap, Tailwind CSS) offer pre-built components and utilities, speeding up development."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Back-End Development",
+      "children": [
+        {
+          "name": "UI/UX Principles",
+          "details": "User research gathers insights about customer needs and expectations. Usability testing checks whether interfaces are intuitive and effective. Visual design uses color, layout, and typography to create appealing experiences. Interaction design focuses on how users engage with systems, ensuring smooth workflows.",
+          "children": [
+            {
+              "name": "User Research",
+              "details": "User Research involves gathering insights about users’ needs, behaviors, and pain points. It uses surveys, interviews, and observation to build accurate personas. By understanding real-world problems, developers can design software that truly serves its audience. A strong user research process minimizes assumptions and maximizes user satisfaction."
+            },
+            {
+              "name": "Usability Testing",
+              "details": "Usability Testing evaluates how real users interact with prototypes or finished products. Observing their struggles highlights areas for improvement in navigation, accessibility, or speed. This step ensures the final product is intuitive and easy to use. Iterative usability testing leads to higher customer satisfaction and retention."
+            },
+            {
+              "name": "Visual Design",
+              "details": "Visual Design applies colors, typography, and layouts to create an appealing interface. It balances aesthetics with functionality, making sure the design is both attractive and practical. Effective visual design communicates hierarchy and guides user attention to key actions. A consistent style also builds trust in the product."
+            },
+            {
+              "name": "Interaction Design",
+              "details": "Interaction Design defines how users interact with elements like buttons, menus, and animations. It focuses on creating smooth, responsive, and predictable user experiences. Clear feedback (like hover effects or error messages) helps users feel in control. Good interaction design reduces frustration and increases engagement."
+            }
+          ]
+        },
+        {
+          "name": "Server-Side Languages and Frameworks",
+          "details": "Node.js with Express provides scalable JavaScript server-side applications. Python with Django or Flask offers rapid development with clean design. Ruby on Rails emphasizes convention over configuration, speeding up development. PHP with Laravel provides a flexible and widely used backend solution. Java with Spring Boot supports large-scale, enterprise-grade systems.",
+          "children": [
+            {
+              "name": "Node.js with Express",
+              "details": "Node.js with Express is a lightweight, fast framework for building scalable applications. It uses JavaScript on both client and server, simplifying development. With its non-blocking I/O model, Node.js handles thousands of concurrent requests efficiently. Express adds routing, middleware, and flexibility for web services."
+            },
+            {
+              "name": "Python with Django/Flask",
+              "details": "Python with Django/Flask offers powerful yet simple web development options. Django provides an all-in-one framework with ORM, authentication, and security features. Flask is more lightweight, giving developers freedom to add only what they need. Both are widely used for startups, APIs, and enterprise solutions."
+            },
+            {
+              "name": "Ruby on Rails",
+              "details": "Ruby on Rails emphasizes convention over configuration, speeding up development with ready-to-use structures. It includes a powerful ORM (ActiveRecord) and scaffolding tools. Rails is ideal for startups wanting to build robust applications quickly. Its focus on simplicity and developer happiness has built a strong community."
+            },
+            {
+              "name": "PHP with Laravel",
+              "details": "PHP with Laravel provides a modern ecosystem for building web applications. Laravel includes built-in authentication, database migration, and templating. Its clean syntax and extensive libraries make development efficient. Laravel remains a strong choice for scalable, secure web apps."
+            },
+            {
+              "name": "Java with Spring Boot",
+              "details": "Java with Spring Boot is designed for enterprise-level applications. It supports modular development, security, and microservices architecture. Spring Boot simplifies Java’s complexity by providing defaults and auto-configuration. It is widely used in industries requiring robust, high-performance systems."
+            }
+          ]
+        },
+        {
+          "name": "API Design",
+          "details": "RESTful APIs structure interactions between systems using HTTP methods and endpoints. Documentation with tools like Swagger ensures clarity for developers consuming APIs. API versioning maintains backward compatibility during updates. Authentication methods like OAuth and JWT secure access and protect sensitive data.",
+          "children": [
+            {
+              "name": "RESTful APIs",
+              "details": "RESTful APIs use HTTP methods like GET, POST, PUT, and DELETE to exchange data. They focus on simplicity, scalability, and stateless communication. RESTful APIs power most web and mobile apps today. Good design includes meaningful endpoints and clear responses."
+            },
+            {
+              "name": "API Documentation (Swagger)",
+              "details": "API Documentation (Swagger) provides interactive, auto-generated references for developers. It explains available endpoints, parameters, and expected outputs. With Swagger, teams reduce misunderstandings and improve collaboration. Clear documentation is as important as the API itself."
+            },
+            {
+              "name": "API Versioning",
+              "details": "API Versioning maintains compatibility as systems evolve. By assigning version numbers, developers can introduce new features without breaking old ones. This ensures long-term stability and smooth transitions for users. Good versioning strategies make APIs more future-proof."
+            },
+            {
+              "name": "API Authentication (OAuth, JWT)",
+              "details": "API Authentication (OAuth, JWT) secures API access by verifying identities. OAuth allows third-party apps to access data without sharing credentials. JWT (JSON Web Tokens) are lightweight tokens that confirm identity across systems. Both methods prevent unauthorized access and protect sensitive information."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "children": [
+        {
+          "name": "Server Management and Deployment",
+          "details": "Linux server administration provides command-line control and management of deployments. Orchestration tools like Kubernetes automate deployment and scaling of applications. Containerization with Docker standardizes environments and simplifies portability.",
+          "children": [
+            {
+              "name": "Linux Server Administration",
+              "details": "Linux Server Administration provides direct control over server environments. Engineers use commands for configuring services, managing processes, and securing systems. Mastering Linux is essential for running scalable web applications. Its stability and flexibility make it the backbone of modern deployments."
+            },
+            {
+              "name": "Orchestration (Kubernetes)",
+              "details": "Orchestration (Kubernetes) automates deployment, scaling, and management of containerized applications. Kubernetes ensures high availability by distributing workloads across clusters. It also manages networking, storage, and updates efficiently. As a result, it is the industry standard for large-scale cloud-native apps."
+            },
+            {
+              "name": "Containerization (Docker)",
+              "details": "Containerization (Docker) packages applications and dependencies into portable units. This guarantees consistency across development, testing, and production. Docker simplifies scaling and reduces environment-specific bugs. It has become a cornerstone of modern DevOps workflows."
+            }
+          ]
+        },
+        {
+          "name": "Continuous Integration/Continuous Deployment (CI/CD)",
+          "details": "Jenkins, Travis CI, and GitLab CI automate builds, testing, and deployment to speed up delivery. Infrastructure as Code (IaC) tools define infrastructure with scripts, improving consistency and repeatability. Together, they ensure efficient and reliable development pipelines.",
+          "children": [
+            {
+              "name": "Jenkins",
+              "details": "Jenkins is a widely used open-source automation server. It supports continuous integration through plugins, pipelines, and distributed builds. Jenkins integrates with almost any tool in the DevOps ecosystem. It has become the backbone of many enterprise CI/CD pipelines."
+            },
+            {
+              "name": "Travis CI",
+              "details": "Travis CI provides a simple, cloud-based solution for CI/CD. It integrates directly with GitHub, automatically running tests on every commit. Its ease of use makes it popular for open-source projects. Travis CI ensures that software is always production-ready."
+            },
+            {
+              "name": "GitLab CI",
+              "details": "GitLab CI is built into GitLab, offering a seamless experience for code hosting and pipelines. It enables teams to manage everything from code to deployment in one platform. GitLab CI emphasizes simplicity, integration, and visibility. It is especially powerful for teams already using GitLab."
+            },
+            {
+              "name": "Infrastructure as Code (IaC)",
+              "details": "Infrastructure as Code (IaC) defines infrastructure using configuration files instead of manual setup. Tools like Terraform and Ansible automate provisioning and updates. IaC improves consistency, scalability, and disaster recovery. It transforms infrastructure into a predictable and version-controlled system."
+            }
+          ]
+        },
+        {
+          "name": "Cloud Computing",
+          "details": "AWS offers a broad suite of cloud services from storage to compute power. Serverless computing enables event-driven execution without managing servers. Azure and Google Cloud provide alternative platforms with strong enterprise and AI integrations. Cloud security ensures that data, infrastructure, and applications remain protected.",
+          "children": [
+            {
+              "name": "AWS Services",
+              "details": "AWS Services include compute (EC2), storage (S3), and databases (RDS). AWS dominates the market with wide offerings for startups and enterprises. It also provides advanced tools for AI, security, and analytics. Engineers mastering AWS gain access to a vast ecosystem."
+            },
+            {
+              "name": "Serverless Computing",
+              "details": "Serverless Computing removes the need to manage servers. Developers write event-driven functions that scale automatically. This reduces costs and simplifies deployment. Serverless is ideal for microservices and lightweight applications."
+            },
+            {
+              "name": "Azure Services",
+              "details": "Azure Services are Microsoft’s cloud offerings, integrating seamlessly with enterprise systems. They support AI, IoT, and DevOps workflows. Azure is especially popular in corporate environments with existing Microsoft infrastructure."
+            },
+            {
+              "name": "Cloud Security",
+              "details": "Cloud Security protects applications and data hosted in the cloud. It includes encryption, identity management, and monitoring. Strong cloud security prevents breaches, ensures compliance, and maintains trust."
+            },
+            {
+              "name": "Google Cloud Services",
+              "details": "Google Cloud Services focus on AI, machine learning, and big data. Google Cloud also offers competitive storage and computing tools. Its strength lies in analytics and integration with Google’s ecosystem."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Software Testing",
+      "children": [
+        {
+          "name": "System Monitoring",
+          "details": "Prometheus provides metrics-based monitoring, while Grafana visualizes performance. Alerting systems notify teams about issues in real-time. Log management and the ELK stack centralize and analyze logs for debugging and auditing.",
+          "children": [
+            {
+              "name": "Prometheus",
+              "details": "Prometheus is a powerful open-source tool for collecting and querying time-series metrics. It is commonly used to monitor infrastructure, applications, and services in real time. Prometheus uses a pull-based model and supports flexible queries with its own language (PromQL). By integrating with alerting systems, it ensures engineers are notified of issues instantly. Its lightweight architecture makes it suitable for both small startups and large enterprises."
+            },
+            {
+              "name": "Alerting",
+              "details": "Alerting mechanisms notify developers or operations teams when certain thresholds are exceeded, such as high CPU usage or service downtime. Automated alerts prevent small issues from growing into major outages. These alerts can be integrated with communication tools like Slack, email, or SMS. Effective alerting also prioritizes issues by severity, so teams know which problems to fix first. Without proper alerting, monitoring loses much of its value."
+            },
+            {
+              "name": "Grafana",
+              "details": "Grafana is a visualization tool that complements Prometheus and other monitoring systems. It provides rich dashboards where data from multiple sources can be displayed in charts, graphs, and heatmaps. Grafana helps teams spot trends and anomalies visually, making troubleshooting faster. It also supports role-based access, so teams across an organization can share insights. Grafana has become the standard for modern DevOps monitoring."
+            },
+            {
+              "name": "Log Management",
+              "details": "Log Management organizes logs from servers, applications, and systems into a central location. Logs contain valuable information about errors, warnings, and normal operations. Without management, these logs are too scattered and large to be useful. Centralized log management improves debugging, auditing, and compliance. It also helps engineers detect patterns that might indicate performance issues or security breaches."
+            },
+            {
+              "name": "ELK Stack",
+              "details": "ELK Stack (Elasticsearch, Logstash, Kibana) is a popular set of tools for log management and analytics. Elasticsearch stores and searches logs quickly, Logstash processes and enriches them, and Kibana provides powerful visualizations. Together, they allow organizations to make sense of huge volumes of machine data. ELK is used for security monitoring, troubleshooting, and business intelligence. It turns raw logs into actionable insights that improve decision-making."
+            }
+          ]
+        },
+        {
+          "name": "Unit Testing",
+          "details": "Test-driven development (TDD) emphasizes writing tests before code to ensure correctness. Frameworks like JUnit or PyTest streamline test writing. Mocking and stubbing simulate components for isolated testing, while code coverage measures how much code is tested.",
+          "children": [
+            {
+              "name": "Test-Driven Development (TDD)",
+              "details": "Test-Driven Development (TDD) is a methodology where tests are written before the code itself. Developers first define the expected behavior, then implement code to pass the test. This approach reduces bugs, improves design clarity, and makes refactoring safer. TDD encourages developers to think about requirements from the user’s perspective. While it requires discipline, it often results in higher-quality codebases."
+            },
+            {
+              "name": "Testing Frameworks",
+              "details": "Testing Frameworks like JUnit for Java or PyTest for Python provide structure for writing and executing tests. They automate repetitive tasks like setup, teardown, and result validation. Frameworks also generate reports, making it easier to track which tests fail and why. By using a standardized framework, teams can collaborate more effectively. The widespread adoption of frameworks shows their importance in professional software development."
+            },
+            {
+              "name": "Mocking and Stubbing",
+              "details": "Mocking and Stubbing simulate parts of a system during testing. For example, if a function depends on an external API, developers can mock the API response instead of making real requests. This makes testing faster and more reliable by isolating the component under test. Mocking also helps in simulating edge cases that might be hard to reproduce in real environments. These practices ensure code correctness without external dependencies slowing the process."
+            },
+            {
+              "name": "Code Coverage",
+              "details": "Code Coverage measures how much of the codebase is tested. Tools highlight which lines or branches are executed during tests, revealing untested areas. While high coverage doesn’t guarantee bug-free software, it reduces the risk of undetected issues. It also motivates developers to write more comprehensive tests. When combined with other metrics, coverage becomes a key indicator of code quality."
+            }
+          ]
+        },
+        {
+          "name": "Integration Testing",
+          "details": "API testing validates system interactions across endpoints. End-to-end testing simulates user flows across the whole system. Database testing ensures queries, transactions, and schema changes function correctly.",
+          "children": [
+            {
+              "name": "API Testing",
+              "details": "API Testing validates that APIs send and receive data correctly. It checks endpoints for proper input handling, output formatting, and error management. API testing is vital because modern applications often rely on multiple services communicating. Tools like Postman and Newman automate these checks. Strong API testing ensures reliability for both developers and end-users."
+            },
+            {
+              "name": "End-to-End Testing",
+              "details": "End-to-End Testing simulates real user scenarios across the entire system. It verifies that all components—from front-end to database—work together seamlessly. These tests replicate how customers will actually use the application. While time-consuming, they provide the highest confidence in product quality. Effective end-to-end testing prevents user-facing issues before release."
+            },
+            {
+              "name": "Database Testing",
+              "details": "Database Testing ensures that queries, transactions, and schema changes work correctly. It verifies that data integrity is maintained during inserts, updates, and deletes. Database testing also covers constraints, triggers, and stored procedures. Without it, applications risk corrupting or losing critical data. It is especially important in finance, healthcare, and any industry dealing with sensitive records."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Version Control",
+      "children": [
+        {
+          "name": "Behavioral Patterns",
+          "details": "Chain of Responsibility passes requests along a chain until one handles it. Observer defines a one-to-many dependency between objects for updates. Command encapsulates requests as objects, enabling undo and re-execution. Strategy defines interchangeable algorithms. Mediator centralizes communication between objects for simplified interactions.",
+          "children": [
+            {
+              "name": "Chain of Responsibility",
+              "details": "Chain of Responsibility passes requests along a chain of handlers until one can process it. This decouples senders from receivers and makes systems more flexible. It is often used in logging, UI handling, and workflow processing. For example, a support system may escalate a request through different departments until it reaches the right handler. The pattern simplifies decision-making and reduces hardcoding of logic."
+            },
+            {
+              "name": "Observer",
+              "details": "Observer defines a one-to-many relationship where objects automatically update when another changes. It is widely used in event-driven systems like GUIs, where multiple elements need to respond to user actions. Observers improve modularity by avoiding direct dependencies between components. However, they must be managed carefully to avoid performance issues in large systems. This pattern underpins many real-time applications."
+            },
+            {
+              "name": "Command",
+              "details": "Command encapsulates actions as objects, separating requests from execution. It allows operations like undo, redo, and scheduling. Command patterns are common in text editors, transactional systems, and GUIs. By treating operations as objects, they provide flexibility in executing and storing actions. This makes them ideal for systems needing dynamic command execution."
+            },
+            {
+              "name": "Strategy",
+              "details": "Strategy allows algorithms to be selected at runtime. Instead of hardcoding logic, developers can swap different strategies as needed. This makes systems more adaptable and reusable. For example, sorting algorithms can be swapped depending on dataset size. Strategy patterns reduce duplication and improve clarity."
+            },
+            {
+              "name": "Mediator",
+              "details": "Mediator centralizes communication between objects, reducing complex dependencies. Instead of objects interacting directly, they communicate through a mediator. This simplifies system design and improves maintainability. Mediators are used in chat applications, control panels, and simulations. The pattern enhances scalability by reducing tangled connections between components."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "children": [
+        {
+          "name": "Network Security",
+          "details": "Firewalls block unauthorized access, while encryption protects data in transit and at rest. Intrusion detection systems monitor and respond to attacks. Network monitoring continuously checks performance and anomalies.",
+          "children": [
+            {
+              "name": "Firewalls",
+              "details": "Firewalls filter traffic entering or leaving a network. They block malicious traffic while allowing legitimate communication. Firewalls can be hardware, software, or cloud-based. They are the first line of defense in network protection. A misconfigured firewall, however, can expose systems to risk."
+            },
+            {
+              "name": "Encryption",
+              "details": "Encryption secures data by converting it into unreadable formats without proper keys. It protects sensitive information like passwords and financial transactions. Encryption is used in SSL/TLS, VPNs, and secure messaging. Strong encryption standards are vital to prevent cyberattacks. However, key management is equally important to maintain security."
+            },
+            {
+              "name": "Intrusion Detection Systems",
+              "details": "Intrusion Detection Systems (IDS) monitor networks for suspicious activities. They detect attempts to exploit vulnerabilities or gain unauthorized access. IDS can be signature-based (matching known attacks) or anomaly-based (detecting unusual behavior). When combined with intrusion prevention systems, they actively stop threats. IDS are essential for detecting sophisticated attacks early."
+            },
+            {
+              "name": "Network Monitoring",
+              "details": "Network Monitoring continuously analyzes traffic for performance and security. It helps spot congestion, outages, or intrusions in real time. Network monitoring tools visualize data, set thresholds, and send alerts. This ensures stability and rapid response to incidents. Without it, businesses risk undetected downtime or breaches."
+            }
+          ]
+        },
+        {
+          "name": "Application Security",
+          "details": "Cross-site scripting (XSS) prevents malicious scripts from executing in browsers. Input validation ensures data integrity and protects against attacks. SQL injection is a common exploit where attackers inject queries, mitigated with prepared statements. Cryptography underpins secure communications and authentication.",
+          "children": [
+            {
+              "name": "Cross-Site Scripting (XSS)",
+              "details": "Cross-Site Scripting (XSS) occurs when attackers inject malicious scripts into web pages viewed by others. These scripts can steal cookies, redirect users, or display false information. Preventing XSS requires sanitizing input, escaping output, and using secure frameworks. Modern browsers and content security policies provide additional protection. XSS remains one of the most common web vulnerabilities."
+            },
+            {
+              "name": "Input Validation",
+              "details": "Input Validation ensures that user inputs are safe and expected. It prevents malicious data from crashing systems or injecting harmful commands. Validation should occur both client-side (for usability) and server-side (for security). Poor validation leads to vulnerabilities like SQL injection or buffer overflows. Strong validation improves both security and data quality."
+            },
+            {
+              "name": "SQL Injection",
+              "details": "SQL Injection is a critical vulnerability where attackers insert malicious SQL queries into input fields. This can expose, modify, or delete sensitive data. Preventing SQL injection requires parameterized queries, stored procedures, and input sanitization. Security frameworks also provide built-in protections. SQL injection has caused some of the largest breaches in history, showing its danger."
+            },
+            {
+              "name": "Cryptography",
+              "details": "Cryptography secures data through encryption, hashing, and digital signatures. It ensures confidentiality, integrity, and authenticity of information. Cryptography underlies secure protocols like HTTPS, VPNs, and blockchain. Proper implementation is complex but critical for protecting sensitive data. Weak cryptography can leave systems wide open to attacks."
+            }
+          ]
+        },
+        {
+          "name": "Infrastructure Security",
+          "details": "Network security principles apply to infrastructure layers, ensuring safe connectivity. Vulnerability scanning identifies weaknesses before exploitation. Security auditing systematically reviews practices and compliance, improving resilience.",
+          "children": [
+            {
+              "name": "Network Security",
+              "details": "Network Security at the infrastructure level ensures routers, switches, and servers are protected. It overlaps with general network security but focuses on internal corporate systems. Misconfigured infrastructure can become a backdoor for attackers. Infrastructure security often uses segmentation to contain breaches. It ensures that even if one system is compromised, others remain protected."
+            },
+            {
+              "name": "Vulnerability Scanning",
+              "details": "Vulnerability Scanning identifies weaknesses in servers, applications, and configurations. Tools scan for outdated software, misconfigurations, and missing patches. Regular scanning helps organizations fix problems before attackers exploit them. It is a proactive measure that complements monitoring and testing. Scanning is essential in meeting compliance standards."
+            },
+            {
+              "name": "Security Auditing",
+              "details": "Security Auditing reviews systems, policies, and practices for compliance and effectiveness. Audits may be internal or external, ensuring adherence to industry regulations. They identify both technical and organizational weaknesses. Regular audits improve transparency and accountability. They also demonstrate commitment to security for customers and partners."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

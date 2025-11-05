@@ -1,0 +1,260 @@
+{
+  "name": "Technical, Academic, and Freestyle Writer",
+  "children": [
+    {
+      "name": "Fundamentals of Writing",
+      "children": [
+        {
+          "name": "Grammar and Mechanics",
+          "children": [
+            {
+              "name": "Parts of Speech"
+            },
+            {
+              "name": "Style guides (APA)"
+            },
+            {
+              "name": "Sentence Structure"
+            },
+            {
+              "name": "Punctuation Rules"
+            },
+            {
+              "name": "Common Grammatical Errors"
+            }
+          ]
+        },
+        {
+          "name": "Writing Process",
+          "children": [
+            {
+              "name": "Idea genaration"
+            },
+            {
+              "name": "Outlining"
+            },
+            {
+              "name": "Drafting"
+            },
+            {
+              "name": "Editing"
+            },
+            {
+              "name": "Proofreading"
+            },
+            {
+              "name": "Publishing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Technical Writing",
+      "children": [
+        {
+          "name": "Rhetoric and Composition",
+          "children": [
+            {
+              "name": "Rhetorical Devices"
+            },
+            {
+              "name": "Argumentation"
+            },
+            {
+              "name": "Persuasion"
+            },
+            {
+              "name": "Narration"
+            },
+            {
+              "name": "Exposition"
+            },
+            {
+              "name": "Description"
+            }
+          ]
+        },
+        {
+          "name": "Technical Communication Principles",
+          "children": [
+            {
+              "name": "Audience Analysis"
+            },
+            {
+              "name": "Task Analysis"
+            },
+            {
+              "name": "Information Design"
+            },
+            {
+              "name": "Usability Testing"
+            },
+            {
+              "name": "Ethical Considerations"
+            },
+            {
+              "name": "Project Management"
+            },
+            {
+              "name": "Version Control"
+            }
+          ]
+        },
+        {
+          "name": "Documentation Types",
+          "children": [
+            {
+              "name": "User Manuals"
+            },
+            {
+              "name": "API Documentation"
+            },
+            {
+              "name": "White Papers"
+            },
+            {
+              "name": "Technical Reports"
+            },
+            {
+              "name": "Installation Guides"
+            },
+            {
+              "name": "Troubleshooting Guides"
+            },
+            {
+              "name": "Training Materials"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Academic Writing",
+      "children": [
+        {
+          "name": "Tools and Technologies",
+          "children": [
+            {
+              "name": "Markup Languages (XML, Markdown)"
+            },
+            {
+              "name": "Version Control Systems (Git)"
+            },
+            {
+              "name": "Content Management Systems (CMS)"
+            },
+            {
+              "name": "Screen Capture Software"
+            },
+            {
+              "name": "Authoring Tools (MadCap Flare, Adobe FrameMaker)"
+            },
+            {
+              "name": "Diagramming Tools"
+            }
+          ]
+        },
+        {
+          "name": "Research Methods",
+          "children": [
+            {
+              "name": "Literature Review"
+            },
+            {
+              "name": "Qualitative Research"
+            },
+            {
+              "name": "Data Analysis"
+            },
+            {
+              "name": "Quantitative Research"
+            },
+            {
+              "name": "Research Ethics"
+            }
+          ]
+        },
+        {
+          "name": "Academic Genres",
+          "children": [
+            {
+              "name": "Research Papers"
+            },
+            {
+              "name": "Conference Papers"
+            },
+            {
+              "name": "Literature Reviews"
+            },
+            {
+              "name": "Book Reviews"
+            },
+            {
+              "name": "Dissertations"
+            },
+            {
+              "name": "Abstracts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Freestyle Writing (Novels)",
+      "children": [
+        {
+          "name": "Citation and Referencing",
+          "children": [
+            {
+              "name": "APA Style"
+            },
+            {
+              "name": "IEEE Style"
+            },
+            {
+              "name": "MLA Style"
+            },
+            {
+              "name": "Citation Management Software (Zotero, Mendeley)"
+            }
+          ]
+        },
+        {
+          "name": "Narrative Structure",
+          "children": [
+            {
+              "name": "Plot Development"
+            },
+            {
+              "name": "Point of View"
+            },
+            {
+              "name": "Character Development"
+            },
+            {
+              "name": "Conflict"
+            },
+            {
+              "name": "Setting"
+            }
+          ]
+        },
+        {
+          "name": "Creative Writing Techniques",
+          "children": [
+            {
+              "name": "Show, Don't Tell"
+            },
+            {
+              "name": "Pacing"
+            },
+            {
+              "name": "Pacing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

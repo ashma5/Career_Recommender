@@ -1,0 +1,165 @@
+{
+  "name": "Game Developer",
+  "children": [
+    {
+      "name": "Client Side Development",
+      "details": "In game development, the term \"Client Side\" refers to all the operations and activities that occur on the player's machine, which could be a console, computer, or even a phone. The client side is responsible for rendering graphics, handling input from the user and sometimes processing game logic. This is in contrast to the server-side operations, which involve handling multiplayer connections and synchronizing game states among multiple clients. On the client side, developers need to ensure performance optimization, smooth UI/UX, quick load times, and security to provide an engaging, lag-free gaming experience. Security is also crucial to prevent cheating in multiplayer games, which can be tackled through measures like Data obfuscation and encryption.\n\n",
+      "children": [
+        {
+          "name": "Game Mathematics",
+          "details": "\"Game Mathematics\" is a critical aspect of game development that deals with the use of mathematical concepts to create and control game mechanics. This involves areas such as geometry for 3D modelling, logic for game rules, algebra for scoring systems, and trigonometry for movements or trajectories. Understanding game mathematics enables developers to implement features like physics simulation, AI behaviours, and procedural generation. Advanced topics include complex calculations for graphics (e.g., shaders, lighting) and calculus for continuous animation or advanced physics. The mathematical complexity depends on the game's demands, but a solid foundation is crucial for any game developer.\n\n",
+          "children": [
+            {
+              "name": "Linear Algebra",
+              "details": "Linear Algebra is a vital field in Mathematics that is extensively used in game development. It revolves around vector spaces and the mathematical structures used therein, including matrices, determinants, vectors, eigenvalues, and eigenvectors, among others. In the context of game development, linear algebra is used mainly for computer graphics, physics, AI, and many more. It allows developers to work with spatial transformations, helping them manipulate and critically interact with the 3D space of the game. On a broader context, it is important in computer programming for algorithms, parallax shifting, polygonal modeling, collision detection, etc. From object movements, positional calculations, game physics, to creating dynamism in games, linear algebra is key.\n\n"
+            },
+            {
+              "name": "Vector",
+              "details": "Vector in game development is a mathematical concept and an integral part of game physics. It represents a quantity that has both magnitude and direction. A vector can be used to represent different elements in a game like positions, velocities, accelerations, or directions. In 3D games, it's commonly used to define 3D coordinates (x, y, z). For example, if you have a character in a game and you want to move it up, you'd apply a vector that points upward. Hence, understanding how to manipulate vectors is a fundamental skill in game development.\n\n"
+            },
+            {
+              "name": "Matrix",
+              "details": "In game development, a matrix is a fundamental part of game mathematics. It's a grid of numbers arranged into rows and columns that's particularly important in 3D game development. These matrices are typically 4x4, meaning they contain 16 floating point numbers, and they're used extensively for transformations. They allow for the scaling, rotation, and translation (moving) of 3D vertices in space. With matrices, these transformations can be combined, and transformed vertices can be used to draw the replicas of 3D models into 2D screen space for rendering.\n\n"
+            },
+            {
+              "name": "Linear Transformation",
+              "details": "Linear transformations or linear maps are an important concept in mathematics, particularly in the fields of linear algebra and functional analysis. A linear transformation can be thought of as a transformation that preserves the operations of addition and scalar multiplication. In other words, a transformation T is linear if for every pair of vectors x and y, the equation T(x + y) = T(x) + T(y) holds true. Similarly, for any scalar c and any vector x, the equation T(cx)=cT(x) should also hold true. This property makes them very useful when dealing with systems of linear equations, matrices, and in many areas of computer graphics, including game development.\n\n"
+            },
+            {
+              "name": "Affine Transformation",
+              "details": "An affine transformation, in the context of game mathematics, is a function between affine spaces which preserves points, straight lines and planes. Also, sets of parallel lines remain parallel after an affine transformation. In video games, it's typically used for manipulating an object's position in 3D space. This operation allows game developers to perform multiple transformations such as translation (moving an object from one place to another), scaling (changing the size of an object), and rotation (spinning the object around a point). An important feature of affine transformation is that it preserves points uniqueness; if two points are distinct to start with, they remain distinct after transformation. It's important to note that these transformations are applied relative to an object's own coordinate system, not the world coordinate system.\n\n"
+            }
+          ]
+        },
+        {
+          "name": "Game Physics",
+          "details": "Game Physics is an integral part of game development that simulates the laws of physics in a virtual environment. This simulation brings realism into the game by defining how objects move, interact, and react to collisions and forces. Game physics ranges from how a character jumps or moves in a 2D or 3D space, to more complex mechanics such as fluid dynamics or ragdoll physics. Two main types of game physics are 'arcade physics', which are simpler and more abstract; and 'realistic physics', attempting to fully recreate real-life physics interactions. Implementing game physics requires a combination of mathematical knowledge and programming skills to integrate physics engines like Unity's PhysX and Unreal Engine's built-in physics tool.\n\n",
+          "children": [
+            {
+              "name": "Collision Detection",
+              "details": "Collision Detection is a critical aspect in game physics that handles the computer’s ability to calculate and respond when two or more objects come into contact in a game environment. This is vital to ensure objects interact realistically, don't pass through each other, and impact the game world in intended ways. Techniques for collision detection can vary based on the complexity required by the game. Simple methods may involve bounding boxes or spheres that encapsulate objects. When these spheres or boxes overlap, a collision is assumed. More complex methods consider the object's shape and volume for precise detection. Several libraries and game engines offer built-in support for collision detection, making it easier for developers to implement in their games.\n\n"
+            },
+            {
+              "name": "Narrow Phase",
+              "details": "The Narrow Phase of collision detection is a process that dives deeply into detailed collision checks for pairs of objects that are already found to be potentially colliding during the broad phase. Narrow phase is essentially a fine-tuning process. Upon positive detection from the broad phase, it identifies the precise points of collision between the two objects, and it may involve more detailed shape representations and more expensive algorithms. It might also calculate additional information necessary for the physics simulation (like the exact time of impact and contact normals). The usual methods used for this phase involve bounding box, bounding sphere or separating axis theorem. However, the method can vary depending on the complexity of shapes of objects and the specific needs of the game.\n\n"
+            },
+            {
+              "name": "Broad Phase",
+              "details": "Broad Phase Collision Detection is the first step in the collision detection process. Its primary function is to identify which pairs of objects might potentially collide. Rather than examining the entire body of every object for possible collision, it wraps up each one in a simpler shape like a bounding box or sphere, aiming to reduce the number of calculations. The output of this phase is a list of 'candidate pairs' which are passed onto the next phase, often referred to as the narrow phase, for in-depth overlap checks.\n\n"
+            }
+          ]
+        },
+        {
+          "name": "Game Engine",
+          "details": "A Game Engine is a software framework designed to facilitate the creation and development of video games. Developers use them to create games for consoles, mobile devices, and personal computers. The core functionality typically provided by a game engine includes a rendering engine (\"renderer\") for 2D or 3D graphics, a physics engine or collision detection (and collision response), sound, scripting, animation, artificial intelligence, networking, streaming, memory management, and a scene graph. Game Engines can save a significant amount of development time by providing these reusable components. However, they aren't one-size-fits-all solutions, as developers must still customize much of the code to fit their games' unique needs. Some popular game engines are Unity, Unreal Engine, and Godot.\n\n",
+          "children": [
+            {
+              "name": "Unity 3D",
+              "details": "Unity 3D is a versatile, cross-platform game engine that supports the development of both 2D and 3D games. This game engine allows users to create a wide variety of games including AR, VR, Mobile, Consoles, and Computers in C#. It provides a host of powerful features and tools, such as scripting, asset bundling, scene building, and simulation, to assist developers in creating interactive content. Unity 3D also boasts a large, active community that regularly contributes tutorials, scripts, assets, and more, making it a robust platform for all levels of game developers.\n\n"
+            },
+            {
+              "name": "Unreal Engine",
+              "details": "The Unreal Engine is a powerful game development engine created by Epic Games. Used by game developers worldwide, it supports the creation of high-quality games across multiple platforms such as iOS, Android, Windows, Mac, Xbox, and PlayStation. Unreal Engine is renowned for its photo-realistic rendering, dynamic physics and effects, robust multiplayer framework, and its flexible scripting system called Blueprint. The engine is also fully equipped with dedicated tools and functionalities for animation, AI, lighting, cinematography, and post-processing effects. The most recent version, Unreal Engine 5, introduces real-time Global Illumination and makes film-quality real-time graphics achievable.\n\n"
+            },
+            {
+              "name": "Native",
+              "details": "You don't necessarily have to use tools like Unreal, Unity3d, or Godot to make games. You can also use native languages like C++ or Rust to make games. However, you will have to do a lot of work yourself, and you will have to learn a lot of things that are already done for you in game engines.\n\n"
+            },
+            {
+              "name": "Godot",
+              "details": "Godot is an open-source, multi-platform game engine that is known for being feature-rich and user-friendly. It is developed by hundreds of contributors from around the world and supports the creation of both 2D and 3D games. Godot uses its own scripting language, GDScript, which is similar to Python, but it also supports C#. It is equipped with a unique scene system and comes with a multitude of tools that can expedite the development process. Godot's design philosophy centers around flexibility, extensibility, and ease of use, providing a handy tool for both beginners and pros in game development.\n\n"
+            }
+          ]
+        },
+        {
+          "name": "Programming Languages",
+          "details": "Programming languages are very crucial to game development as they are the backbone of game design and functionality. A variety of languages can be used, but some are more commonly preferred in the industry due to their robustness and efficiency. The most popular ones include C++, C#, and Java. C++, a high-level language primarily used for developing video games, is known for its speed and efficiency. C#, which was developed by Microsoft, is extensively used with the Unity game engine to develop multi-platform games. Java is well-established in the sector as well, and it often utilized in the development of Android games. It's pivotal for a game developer to select a language that aligns with the project's requirements and nature. Despite the programming language you choose, a deep understanding of its constructs, logic, and capabilities is required for successful game development.\n\n",
+          "children": [
+            {
+              "name": "C Sharp",
+              "details": "CSharp (C#) is a modern, object-oriented programming language developed and maintained by Microsoft. It's primarily used for developing desktop applications and, more prominently, for Windows applications within the Microsoft.Net framework. However, the language is versatile and has a wide range of uses in web services, websites, enterprise software, and even mobile app development. C# is known for its simplicity, type-safety, and support for component-oriented software development. It's also been adopted by Unity, a widely used game engine, thus making it one of the preferred languages for game development.\n\n"
+            },
+            {
+              "name": "C / C++",
+              "details": "C and C++ (commonly known as CPP) are two of the most foundational high-level programming languages in computer science. C was developed in the 1970s and it is a procedural language, meaning it follows a step-by-step approach. Its fundamental principles include structured programming and lexical variable scope.\n\nOn the other hand, C++ follows the paradigm of both procedural and object-oriented programming. It was developed as an extension to C to add the concept of \"classes\" - a core feature of object-oriented programming. C++ enhances C by introducing new features like function overloading, exception handling, and templates.\n\n"
+            },
+            {
+              "name": "Rust",
+              "details": "Rust is a modern, open-source, multi-paradigm programming language designed for performance and safety, especially safe concurrency. It was initially designed by Mozilla Research as a language that can provide memory safety without garbage collection. Since then, it has gained popularity due to its features and performance that often compare favorably to languages like C++. Its rich type system and ownership model guarantee memory-safety and thread-safety while maintaining a high level of abstraction. Rust supports a mixture of imperative procedural, concurrent actor, object-oriented and pure functional styles.\n\n"
+            },
+            {
+              "name": "Python",
+              "details": "Python is a popular high-level programming language that was designed by Guido van Rossum and published in 1991. It is preferred for its simplicity in learning and usage, making it a great choice for beginners. Python's design philosophy emphasizes code readability with its use of significant indentation. Its language constructs and object-oriented approach aim to help developers write clear, logical code for small and large-scale projects. Python is dynamically-typed and garbage-collected. Moreover, it supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python is often used for web development, software development, database operations, and machine learning. Although not typically used for game development, some game developers utilize Python for scripting and automating tasks.\n\n"
+            }
+          ]
+        },
+        {
+          "name": "Computer Graphics",
+          "details": "Computer Graphics is a subfield of computer science that studies methods for digitally synthesizing and manipulating visual content. It involves creating and manipulating visual content using specialized computer software and hardware. This field is primarily used in the creation of digital and video games, CGI in films, and also in visual effects for commercials. The field is divided into two major categories: Raster graphics and Vector graphics. Raster graphics, also known as bitmap, involve the representation of images through a dot matrix data structure, while Vector graphics involve the use of polygons to represent images in computer graphics. Both of these methods have their unique usage scenarios. Other concepts integral to the study of computer graphics include rendering (including both real-time rendering and offline rendering), animation, and 3D modeling. Generally, computer graphics skills are essential for game developers and animation experts.\n\n",
+          "children": [
+            {
+              "name": "Ray Tracing",
+              "details": "Ray tracing is a rendering technique in computer graphics that simulates the physical behavior of light. It generates images with a high degree of visual realism, as it captures shadows, reflections, and refracts light. Ray tracing follows the path of light backwards from the camera (eye) to the source (light object), calculating the color of each pixel in the image on the way. The color value calculation considers the object from which the ray has reflected or refracted, and the nature of the light source i.e. whether it's ambient, point or spot. Ray tracing algorithm handles effects that rasterization algorithms like scanline rendering and 'Z-buffer' find complex to handle.\n\n"
+            },
+            {
+              "name": "Rasterization",
+              "details": "In the realm of computer graphics, Rasterization refers to the process of converting the image data into a bitmap form, i.e., pixels or dots. It is predominantly used in 3D rendering where three-dimensional polygonal shapes are transformed into a two-dimensional image, possessing height, width, and color data. It is a scan-conversion process where vertices and primitives, upon being processed through the graphics pipeline, are mathematically converted into fragments. Every fragment finds its position in a raster grid. The process culminates in fragments becoming pixels in the frame buffer, the final rendered image you see on the screen. However, it's essential to note that rasterization does limit the image's resolution to the resolution of the device on which it is displayed.\n\n"
+            },
+            {
+              "name": "Graphics Pipeline",
+              "details": "The Graphics Pipeline, also often referred to as the rendering pipeline, is a sequence of steps that a graphics system follows to convert a 3D model into a 2D image or view that can be displayed onto a screen. These steps typically include transformation, clipping, lighting, rasterization, shading, and other processes. Each step in the pipeline represents an operation that prepares or manipulates data to be used in downstream stages. The pipeline begins with a high-level description of a scene and ends with the final image rendered onto the screen. It is a primary concept in computer graphics that developers should learn as it can help in efficient rendering and high-quality visualization.\n\n"
+            },
+            {
+              "name": "Sampling",
+              "details": "Sampling in computer graphics is a method used to convert a continuous mathematical function (image, signal, light and sound), into a discrete digital representation. The process is done by taking snapshots at regular intervals which are also known as samples, and it's this that gives us the concept of 'sampling'. Some common types of sampling techniques include: uniform sampling (evenly spaced samples), random sampling (samples taken at random intervals), and jittered sampling (a compromise between uniform and random sampling). The higher the sampling rate, the more accurately the original function can be reconstructed from the discrete samples. Effective sampling is a significant aspect of achieving realistic computer graphics.\n\n"
+            },
+            {
+              "name": "Shader",
+              "details": "Shaders are a type of software used in 3D computer graphics. They are utilized to render quality visual effects by making calculations and transformations on image data. Also, a shader is responsible for determining the final color of an object. There are several types of shaders: vertex shaders, geometry shaders, pixel shaders, and compute shaders. Each of these is programmed to manipulate specific attributes of an image, such as its vertices, pixels, and overall geometry. They are essential tools for game developers aiming to produce realistic and engaging visual experiences.\n\n"
+            }
+          ]
+        },
+        {
+          "name": "Game AI",
+          "details": "Game AI is a subfield of artificial intelligence (AI) that is used to create video game characters that act and react like real human players. Game AI is used in a variety of video games, from simple puzzle games to complex strategy games. Game AI can be used to create non-player characters (NPCs) that interact with the player, as well as to create intelligent opponents that challenge the player.\n\n",
+          "children": [
+            {
+              "name": "Naive Bayes Classifier",
+              "details": "The Naive Bayes Classifier is a type of probabalistic machine learning model that is utilized for classification tasks. These tasks can range from email filtering to sentiment analysis or even document categorization. This model is termed 'naive' because it operates under the assumption that each input feature is independent from one another. This simplifying assumption allows for the computation of the probabilities involved to be severely less complicated. It follows the Bayes' Theorem equation to predict the class of the given data point. While this classifier might seem simplistic, it holds its own quite well in complex real-world situations. Due to its simplicity and high efficiency, the Naive Bayes Classifier is one of the most reliable and practical methods in machine learning applications.\n\n"
+            },
+            {
+              "name": "Decision Learning",
+              "details": "In the realm of game development, Decision Learning refers to information systems that recognize and analyze patterns to help in making decisions. It’s particularly used in AI game development where decision-making algorithms or artificial intelligence are programmed to learn from and make decisions based on past experiences or an established decision tree. These decisions can be about game behaviors, player interactions, environment changes and so on. Various methods such as reinforcement learning, Bayesian methods, Decision trees, Neural networks are used to facilitate decision learning in game development.\n\n"
+            },
+            {
+              "name": "Reinforcements Learning",
+              "details": "Reinforcement Learning is a type of Machine Learning which is geared towards making decisions. It involves an agent that learns to behave in an environment, by performing certain actions and observing the results or rewards/results it gets. The main principle of reinforcement learning is to reward good behavior and penalize bad behavior. The agent learns from the consequences of its actions, rather than from being taught explicitly. In the context of game development, reinforcement learning could be used to develop an AI (Artificial Intelligence) which can improve its performance in a game based on reward-driven behavior. The AI gradually learns the optimal strategy, known as policy, to achieve the best result.\n\n"
+            },
+            {
+              "name": "Decision Tree Learning",
+              "details": "Decision Tree Learning is an important concept in game development, particularly in the development of artificial intelligence for game characters. It is a kind of machine learning method that is based on using decision tree models to predict or classify information. A decision tree is a flowchart-like model, where each internal node denotes a test on an attribute, each branch represents an outcome of that test, and each leaf node holds a class label (decision made after testing all attributes). By applying decision tree learning models, computer-controlled characters can make decisions based on different conditions or states. They play a key role in creating complex and interactive gameplay experiences, by enabling game characters to adapt to the player's actions and the ever-changing game environment.\n\n"
+            },
+            {
+              "name": "Artificial Neutral Network",
+              "details": "Artificial Neural Networks (ANN) are a branch of machine learning that draw inspiration from biological neural networks. ANNs are capable of 'learning' from observational data, thereby enhancing game development in numerous ways. They consist of interconnected layers of nodes, or artificial neurons, that process information through their interconnected network. Each node's connection has numerical weight that gets adjusted during learning, which helps in optimizing problem solving. ANNs are utilized in various aspects of game development, such as improving AI behavior, procedural content generation, and game testing. They can also be used for image recognition tasks, such as identifying objects or actions in a game environment.\n\n"
+            }
+          ]
+        },
+        {
+          "name": "Advanced Rendering",
+          "details": "Advanced rendering is a sophisticated technique used in game development that involves translating a 3D model or scene into a 2D image or animation. Advanced rendering techniques can involve various complex methods such as physically-based rendering, ray tracing, global illumination, subsurface scattering, caustics, and volumetric rendering. The use of advanced rendering can result in highly realistic graphics, as it uses complex calculations to depict how light behaves in the real world. Advanced rendering often requires powerful hardware resources and specialized software tools in order to achieve the desired images and animations.\n\n",
+          "children": [
+            {
+              "name": "Physically-Based Rendering",
+              "details": "Physically Based Rendering (PBR) is a technique in computer graphics that aims to mimic the interaction of light with surfaces in the real world. It models how light behaves, from reflection to refraction, in a way that accurately represents reality. The PBR model factors in physical properties of materials, such as roughness or metallicity, making the rendering output more consistent and predictable under different lighting conditions. It uses complex shading algorithms and light calculations to generate a high level of realism. In order to achieve this, many PBR systems use a combination of two important components: the Bidirectional Reflectance Distribution Function (BRDF), which defines how light is reflected off an object, and the Bidirectional Surface Scattering Reflectance Distribution Function (BSSRDF), which handles how light scatters under the surface of an object.\n\n"
+            },
+            {
+              "name": "Real-Time Ray Tracing",
+              "details": "Real-time Ray Tracing is a notable advancement in rendering technology. It aims to mimic the way light works in the real world by simulating how each ray of light interacts with different surfaces. In real-time ray tracing, rays of light are generated from the viewer's perspective and sent into the scene. They can reflect off surfaces, refract through materials, or scatter in different directions. These rays can also be absorbed, producing shadows and shaping the visibility of objects. What makes real-time ray tracing special is its ability to calculate all these interactions in real-time, which allows graphics to be much more dynamic and interactive. The complexity of real-time ray tracing involves extensive computational power and it has been a groundbreaking feature in newer hardware and software releases.\n\n"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

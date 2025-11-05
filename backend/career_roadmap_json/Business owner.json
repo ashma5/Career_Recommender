@@ -1,0 +1,590 @@
+{
+  "name": "Business Owner",
+  "children": [
+    {
+      "name": "Ideation & Validation",
+      "details": "This stage focuses on generating and testing business ideas before committing resources. It involves brainstorming, identifying market needs, analyzing industry trends, and ensuring a strong problem-solution fit. The aim is to confirm that the idea addresses real customer needs and has growth potential.",
+      "children": [
+        {
+          "name": "Idea Generation",
+          "children": [
+            {
+              "name": "Brainstorming Techniques",
+              "details": "Brainstorming is a creative method for producing many ideas quickly. It encourages open thinking, collaboration, and innovation without immediate judgment."
+            },
+            {
+              "name": "Identifying Market Needs",
+              "details": "This involves spotting gaps in the market where customer needs are unmet. It helps ensure the business idea addresses real-world demand."
+            },
+            {
+              "name": "SWOT Analysis",
+              "details": "SWOT identifies strengths, weaknesses, opportunities, and threats. It guides strategic decisions by assessing internal and external factors."
+            },
+            {
+              "name": "Analyzing Trends",
+              "details": "Tracking industry and consumer trends helps businesses stay ahead. It allows entrepreneurs to predict shifts and adapt offerings."
+            },
+            {
+              "name": "Customer Discovery",
+              "details": "Customer discovery validates assumptions by directly engaging with potential buyers. It refines the product idea based on feedback."
+            },
+            {
+              "name": "Problem-Solution Fit",
+              "details": "Ensures the proposed solution effectively addresses a real customer problem. Achieving this fit is crucial before scaling further."
+            }
+          ]
+        },
+        {
+          "name": "Market Research",
+          "children": [
+            {
+              "name": "Defining Target Market",
+              "details": "Establishing who the ideal customers are. This helps focus resources on the most promising audience."
+            },
+            {
+              "name": "Understanding Customer Behavior",
+              "details": "Examines how customers make purchase decisions and use products. It supports better marketing and product design."
+            },
+            {
+              "name": "Conducting Surveys",
+              "details": "Surveys gather customer opinions and preferences directly. They provide data-driven insights for product and service development."
+            },
+            {
+              "name": "Market Sizing",
+              "details": "Determines the potential size and value of a market. It shows whether a business idea has growth potential."
+            },
+            {
+              "name": "Focus Groups",
+              "details": "Small group discussions that reveal customer attitudes and expectations. They provide qualitative insights not captured in surveys."
+            },
+            {
+              "name": "Identifying Competitors",
+              "details": "Analyzing current and potential competitors in the market. This helps position the business strategically."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Business Planning",
+      "details": "Business planning establishes a clear roadmap for operations, strategy, and financial health. It includes developing business models, drafting structured business plans, and creating financial projections. This process helps entrepreneurs organize their vision, attract investors, and reduce risks.",
+      "children": [
+        {
+          "name": "Business Model Development",
+          "children": [
+            {
+              "name": "Value Proposition Design",
+              "details": "Value Proposition Design: Defines the unique value a product or service delivers to customers. It differentiates the business from competitors."
+            },
+            {
+              "name": "Lean Canvas",
+              "details": "Lean Canvas: A simplified one-page model for outlining key business elements. It focuses on problems, solutions, and customer segments."
+            },
+            {
+              "name": "Cost Structure",
+              "details": "Cost Structure: Identifies all expenses needed to operate the business. Helps plan sustainable pricing and profitability."
+            },
+            {
+              "name": "Key Resources",
+              "details": "Key Resources: Outlines critical assets like staff, technology, or partnerships. These are essential for delivering value to customers."
+            },
+            {
+              "name": "Business Model Canvas",
+              "details": "Business Model Canvas: A visual framework summarizing how the business creates and captures value. It aligns strategy and operations."
+            },
+            {
+              "name": "Key Activities",
+              "details": "Key Activities: Highlights core actions necessary to run the business. These could include production, marketing, or distribution."
+            }
+          ]
+        },
+        {
+          "name": "Business Plan Structure",
+          "children": [
+            {
+              "name": "Audience Analysis",
+              "details": "Audience Analysis: Identifies who will read the business plan (investors, partners, etc.). Ensures the content is tailored to their needs."
+            },
+            {
+              "name": "Task Analysis",
+              "details": "Task Analysis: Breaks down business activities into manageable tasks. Supports effective planning and execution."
+            },
+            {
+              "name": "Information Design",
+              "details": "Information Design: Structures the business plan for clarity and logical flow. Good design makes the plan persuasive and easy to follow."
+            },
+            {
+              "name": "Usability Testing",
+              "details": "Usability Testing: Testing the plan with others for clarity and understanding. It ensures the plan communicates effectively."
+            },
+            {
+              "name": "Ethical Considerations",
+              "details": "Ethical Considerations: Includes fairness, transparency, and social responsibility in planning. Builds trust with stakeholders."
+            },
+            {
+              "name": "Project Management",
+              "details": "Project Management: Provides frameworks for tracking progress and managing resources. It ensures smooth execution of the plan."
+            },
+            {
+              "name": "Version Control",
+              "details": "Version Control: Maintains updates and iterations of the business plan. Prevents confusion and tracks changes over time."
+            }
+          ]
+        },
+        {
+          "name": "Financial Projections",
+          "children": [
+            {
+              "name": "Startup Costs",
+              "details": "Startup Costs: Estimates initial investments needed to launch. Covers equipment, licenses, and early operations."
+            },
+            {
+              "name": "Revenue Forecasts",
+              "details": "Revenue Forecasts: Predicts future income streams. Helps investors and owners plan growth."
+            },
+            {
+              "name": "Balance Sheet Projections",
+              "details": "Balance Sheet Projections: Forecasts assets, liabilities, and equity over time. Provides a financial snapshot of the business."
+            },
+            {
+              "name": "Break-Even Analysis",
+              "details": "Break-Even Analysis: Identifies when revenue will cover costs. Helps set sales targets and pricing strategies."
+            },
+            {
+              "name": "Profit and Loss Statements",
+              "details": "Profit and Loss Statements: Summarizes expected income and expenses over a period. Shows anticipated profitability."
+            },
+            {
+              "name": "Sensitivity Analysis",
+              "details": "Sensitivity Analysis: Tests how changes in assumptions affect financial outcomes. Prepares the business for uncertainty."
+            },
+            {
+              "name": "Cash Flow Projections",
+              "details": "Cash Flow Projections: Estimates inflows and outflows of money. Ensures liquidity and solvency in operations."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Legal & Compliance",
+      "details": "Legal and compliance ensures the business operates within the law and meets regulatory standards. It covers selecting the right legal structure, understanding business law, and adhering to industry-specific regulations. Proper compliance protects the business from lawsuits, penalties, and reputational damage.",
+      "children": [
+        {
+          "name": "Legal Structure",
+          "children": [
+            {
+              "name": "Sole Proprietorship",
+              "details": "Sole Proprietorship: A simple structure where one person owns and manages the business. Easy to set up but carries personal liability."
+            },
+            {
+              "name": "C Corporation Incorporation",
+              "details": "C Corporation Incorporation: A structure that separates the business from owners legally. Offers strong liability protection but involves more regulation."
+            },
+            {
+              "name": "Legal Compliance",
+              "details": "Legal Compliance: Ensures the business follows local, national, and international laws. Reduces legal risks and penalties."
+            },
+            {
+              "name": "Partnership",
+              "details": "Partnership: Shared ownership between two or more people. It combines resources but requires clear agreements."
+            },
+            {
+              "name": "LLC Formation",
+              "details": "LLC Formation: Limited Liability Company offers flexibility with liability protection. It combines partnership and corporate features."
+            },
+            {
+              "name": "Intellectual Property Protection",
+              "details": "Intellectual Property Protection: Safeguards brand, inventions, and creations. Prevents unauthorized use by competitors."
+            }
+          ]
+        },
+        {
+          "name": "Business Law",
+          "children": [
+            {
+              "name": "Contract Law",
+              "details": "Contract Law: Governs agreements between businesses and individuals. Ensures obligations are enforceable."
+            },
+            {
+              "name": "Consumer Protection Law",
+              "details": "Consumer Protection Law: Protects buyers from unfair practices. Builds trust and prevents exploitation."
+            },
+            {
+              "name": "Intellectual Property Law",
+              "details": "Intellectual Property Law: Regulates copyrights, patents, and trademarks. Encourages innovation and protects creative works."
+            },
+            {
+              "name": "E-commerce Law",
+              "details": "E-commerce Law: Covers online transactions and digital trade. Ensures secure and fair practices in online business."
+            },
+            {
+              "name": "Employment Law",
+              "details": "Employment Law: Governs relationships between employers and employees. Protects rights, wages, and workplace safety."
+            }
+          ]
+        },
+        {
+          "name": "Regulatory Compliance",
+          "children": [
+            {
+              "name": "Industry-Specific Regulations",
+              "details": "Industry-Specific Regulations: Rules tailored to specific industries like finance or healthcare. Non-compliance can lead to shutdowns."
+            },
+            {
+              "name": "Zoning Laws",
+              "details": "Zoning Laws: Define where businesses can operate. Essential for location-based businesses."
+            },
+            {
+              "name": "Tax Regulations",
+              "details": "Tax Regulations: Cover how businesses calculate and pay taxes. Compliance avoids fines and penalties."
+            },
+            {
+              "name": "Health and Safety Regulations",
+              "details": "Health and Safety Regulations: Ensure safe working conditions. Protects employees and avoids legal risks."
+            },
+            {
+              "name": "Data Security Standards",
+              "details": "Data Security Standards: Protect sensitive customer and business data. Critical for digital businesses."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Financial Management",
+      "details": "Financial management is about maintaining the financial health of the business. It includes risk assessment, accounting principles, and financial analysis to guide decision-making. Strong financial management ensures sustainability, profitability, and resilience against uncertainties.",
+      "children": [
+        {
+          "name": "Risk Management",
+          "children": [
+            {
+              "name": "Identifying Business Risks",
+              "details": "Identifying Business Risks: Recognizing potential threats to operations. Includes financial, operational, and market risks."
+            },
+            {
+              "name": "Legal Compliance Audits",
+              "details": "Legal Compliance Audits: Regular reviews to ensure legal obligations are met. Helps avoid penalties and lawsuits."
+            },
+            {
+              "name": "Assessing Risk Probability",
+              "details": "Assessing Risk Probability: Analyzing how likely risks are to occur. Guides prioritization of mitigation strategies."
+            },
+            {
+              "name": "Disaster Recovery Planning",
+              "details": "Disaster Recovery Planning: Prepares for unexpected disruptions like natural disasters or cyberattacks. Ensures business continuity."
+            },
+            {
+              "name": "Developing Mitigation Strategies",
+              "details": "Developing Mitigation Strategies: Designing solutions to reduce or manage risks. Helps safeguard assets and operations."
+            }
+          ]
+        },
+        {
+          "name": "Accounting Principles",
+          "children": [
+            {
+              "name": "GAAP (Generally Accepted Accounting Principles)",
+              "details": "GAAP (Generally Accepted Accounting Principles): Standard rules for financial reporting. Ensures transparency and consistency."
+            },
+            {
+              "name": "Accrual vs. Cash Accounting",
+              "details": "Accrual vs. Cash Accounting: Two methods for tracking income and expenses. Each affects how financial health is reported."
+            },
+            {
+              "name": "Financial Statements",
+              "details": "Financial Statements: Core reports like balance sheet, income statement, and cash flow. They provide insights into performance."
+            },
+            {
+              "name": "Cost Accounting",
+              "details": "Cost Accounting: Tracks costs of producing goods or services. Helps improve efficiency and profitability."
+            },
+            {
+              "name": "Bookkeeping Basics",
+              "details": "Bookkeeping Basics: Recording daily financial transactions. Forms the foundation of accurate accounting."
+            }
+          ]
+        },
+        {
+          "name": "Financial Analysis",
+          "children": [
+            {
+              "name": "Ratio Analysis",
+              "details": "Ratio Analysis: Uses ratios to evaluate profitability, liquidity, and efficiency. Simplifies comparisons over time or across companies."
+            },
+            {
+              "name": "Investment Analysis",
+              "details": "Investment Analysis: Evaluates potential investments for risk and return. Supports decision-making in growth opportunities."
+            },
+            {
+              "name": "Trend Analysis",
+              "details": "Trend Analysis: Identifies financial patterns over time. Helps predict future performance."
+            },
+            {
+              "name": "Budgeting and Forecasting",
+              "details": "Budgeting and Forecasting: Plans future income and expenses. Guides resource allocation and financial planning."
+            },
+            {
+              "name": "Cost-Volume-Profit Analysis",
+              "details": "Cost-Volume-Profit Analysis: Examines relationships between costs, sales, and profit. Useful for pricing and sales decisions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marketing & Sales",
+      "details": "Marketing and sales drive customer acquisition and revenue generation. This area emphasizes integrating technology like CRM systems, digital marketing strategies such as SEO and social media, and building customer-focused campaigns. The goal is to strengthen brand presence and achieve consistent sales growth.",
+      "children": [
+        {
+          "name": "Technology Integration",
+          "children": [
+            {
+              "name": "Enterprise Resource Planning (ERP)",
+              "details": "Enterprise Resource Planning (ERP): Software that integrates core business processes. Improves efficiency and data flow."
+            },
+            {
+              "name": "Cloud Computing",
+              "details": "Cloud Computing: Provides scalable and flexible IT resources. Reduces costs and enhances collaboration."
+            },
+            {
+              "name": "Customer Relationship Management (CRM)",
+              "details": "Customer Relationship Management (CRM): Systems for managing customer interactions. Improves relationships and boosts sales."
+            },
+            {
+              "name": "IT Infrastructure",
+              "details": "IT Infrastructure: Hardware and software foundation for business operations. Ensures stability and security of processes."
+            }
+          ]
+        },
+        {
+          "name": "Digital Marketing",
+          "children": [
+            {
+              "name": "Search Engine Optimization (SEO)",
+              "details": "Search Engine Optimization (SEO): Improves website visibility on search engines. Attracts organic traffic."
+            },
+            {
+              "name": "Email Marketing",
+              "details": "Email Marketing: Directly engages customers via email campaigns. Effective for retention and promotions."
+            },
+            {
+              "name": "Search Engine Marketing (SEM)",
+              "details": "Search Engine Marketing (SEM): Paid advertising to increase search visibility. Delivers quick customer reach."
+            },
+            {
+              "name": "Affiliate Marketing",
+              "details": "Affiliate Marketing: Partners promote products for a commission. Expands reach at lower costs."
+            },
+            {
+              "name": "Social Media Marketing",
+              "details": "Social Media Marketing: Engages audiences on social platforms. Builds brand awareness and loyalty."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Customer Service",
+      "details": "Customer service enhances customer satisfaction and loyalty by addressing concerns and building strong relationships. It uses AI-driven tools like chatbots and support channels such as phone and self-service portals. Developing skills like empathy, active listening, and conflict resolution ensures high-quality service delivery.",
+      "children": [
+        {
+          "name": "Artificial Intelligence",
+          "children": [
+            {
+              "name": "Machine Learning",
+              "details": "Machine Learning: AI systems that learn patterns from data. Applied in recommendations and fraud detection."
+            },
+            {
+              "name": "Natural Language Processing",
+              "details": "Natural Language Processing: Enables machines to understand human language. Used in chatbots and voice assistants."
+            },
+            {
+              "name": "Chatbots",
+              "details": "Chatbots: Automated agents handling customer inquiries. Provide 24/7 support at lower costs."
+            },
+            {
+              "name": "AI Applications in Business",
+              "details": "AI Applications in Business: Includes predictive analytics, personalization, and automation. Enhances efficiency and customer experience."
+            },
+            {
+              "name": "AI-Powered Automation",
+              "details": "AI-Powered Automation: Automates repetitive tasks using AI. Saves time and improves accuracy."
+            }
+          ]
+        },
+        {
+          "name": "Customer Support Channels",
+          "children": [
+            {
+              "name": "Phone Support",
+              "details": "Phone Support: Direct voice communication with agents. Builds trust and resolves complex issues."
+            },
+            {
+              "name": "Self-Service Portals",
+              "details": "Self-Service Portals: Online tools for customers to find solutions independently. Reduces support load."
+            },
+            {
+              "name": "Knowledge Base",
+              "details": "Knowledge Base: Centralized collection of FAQs and guides. Improves customer access to information."
+            },
+            {
+              "name": "Community Forums",
+              "details": "Community Forums: Platforms where customers share experiences and solutions. Encourages peer support and brand loyalty."
+            }
+          ]
+        },
+        {
+          "name": "Customer Service Skills",
+          "children": [
+            {
+              "name": "Active Listening",
+              "details": "Active Listening: Fully focusing on customers’ words and intent. Improves understanding and satisfaction."
+            },
+            {
+              "name": "Conflict Resolution",
+              "details": "Conflict Resolution: Handling disputes calmly and fairly. Protects customer relationships."
+            },
+            {
+              "name": "Time Management",
+              "details": "Time Management: Efficiently managing interactions. Reduces wait times and improves productivity."
+            },
+            {
+              "name": "Empathy",
+              "details": "Empathy: Understanding customer emotions and perspectives. Builds strong connections."
+            },
+            {
+              "name": "Problem-Solving",
+              "details": "Problem-Solving: Finding effective solutions to customer issues. Ensures quick resolution and trust."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scaling & Growth",
+      "details": "Scaling and growth involve expanding operations while maintaining efficiency. This includes restructuring organizations, exploring new markets, and developing new products. It ensures the business can adapt to larger demands and reach long-term goals.",
+      "children": [
+        {
+          "name": "Organizational Structure",
+          "children": [
+            {
+              "name": "Hierarchical Structure",
+              "details": "Hierarchical Structure: Traditional top-down management system. Clear authority but can be rigid."
+            },
+            {
+              "name": "Divisional Structure",
+              "details": "Divisional Structure: Organizes teams by product, region, or market. Allows focus but may duplicate efforts."
+            },
+            {
+              "name": "Matrix Structure",
+              "details": "Matrix Structure: Combines functional and project-based systems. Encourages collaboration but can be complex."
+            },
+            {
+              "name": "Network Structure",
+              "details": "Network Structure: Flexible arrangement with partnerships and outsourcing. Promotes adaptability and innovation."
+            }
+          ]
+        },
+        {
+          "name": "Market Expansion",
+          "children": [
+            {
+              "name": "Mergers and Acquisitions",
+              "details": "Mergers and Acquisitions: Joining or buying companies to expand. Increases market power and resources."
+            },
+            {
+              "name": "New Product Development",
+              "details": "New Product Development: Creating new offerings for existing or new markets. Drives growth and innovation."
+            },
+            {
+              "name": "Franchising",
+              "details": "Franchising: Expands brand by licensing it to others. Low-risk way to scale quickly."
+            },
+            {
+              "name": "International Markets",
+              "details": "International Markets: Expanding business globally. Offers larger opportunities but adds cultural and legal challenges."
+            },
+            {
+              "name": "Licensing",
+              "details": "Licensing: Granting rights to use intellectual property. Generates revenue with minimal effort."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Exit Strategies",
+      "details": "Exit strategies prepare the business for transitions such as selling, going public, or passing leadership to successors. It covers operational scaling, IPO preparation, and succession planning. A clear exit plan helps maximize value, ensure continuity, and achieve smooth transitions.",
+      "children": [
+        {
+          "name": "Operational Scaling",
+          "children": [
+            {
+              "name": "Process Automation",
+              "details": "Process Automation: Uses technology to streamline workflows. Reduces errors and boosts efficiency."
+            },
+            {
+              "name": "Quality Control",
+              "details": "Quality Control: Ensures consistent product and service standards. Builds trust and reduces complaints."
+            },
+            {
+              "name": "Employee Training",
+              "details": "Employee Training: Equips staff with necessary skills. Improves performance and reduces turnover."
+            },
+            {
+              "name": "Supply Chain Optimization",
+              "details": "Supply Chain Optimization: Enhances logistics and supplier management. Reduces costs and improves delivery speed."
+            }
+          ]
+        },
+        {
+          "name": "Initial Public Offering (IPO)",
+          "children": [
+            {
+              "name": "IPO Process",
+              "details": "IPO Process: Steps to transform a private company into a public one. Provides access to capital but requires compliance."
+            },
+            {
+              "name": "Roadshow",
+              "details": "Roadshow: Presentations to attract potential investors. Builds demand for shares."
+            },
+            {
+              "name": "Underwriting",
+              "details": "Underwriting: Financial institutions help price and sell shares. Reduces risks in going public."
+            },
+            {
+              "name": "Stock Exchange Listing",
+              "details": "Stock Exchange Listing: The company’s shares are listed on an exchange. Increases visibility and credibility."
+            },
+            {
+              "name": "Post-IPO Management",
+              "details": "Post-IPO Management: Managing expectations and compliance after going public. Ensures long-term stability."
+            }
+          ]
+        },
+        {
+          "name": "Succession Planning",
+          "children": [
+            {
+              "name": "Identifying Successors",
+              "details": "Identifying Successors: Selecting future leaders for key roles. Ensures continuity in leadership."
+            },
+            {
+              "name": "Transferring Knowledge",
+              "details": "Transferring Knowledge: Sharing expertise and processes with successors. Prevents knowledge gaps."
+            },
+            {
+              "name": "Developing Leadership Skills",
+              "details": "Developing Leadership Skills: Training successors to lead effectively. Prepares them for future responsibilities."
+            },
+            {
+              "name": "Estate Planning",
+              "details": "Estate Planning: Organizing assets for transfer after the owner exits. Protects the business and beneficiaries."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
